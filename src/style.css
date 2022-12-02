@@ -1,0 +1,94 @@
+body{
+    margin: 0%;
+    background-color: #eee;
+    color: rgb(70, 70, 70);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* wraps todosection and footer together  */
+.container{
+    padding: 1%;
+    padding: 1%;
+    width: 600px;
+    margin: auto;
+}
+/* todocontainer not include footer section  */
+.todoContainer{
+    background-color: rgb(255, 255, 255);
+    padding: 2%;  
+    border-radius: 2px;
+  
+}
+/* Main heading  */
+.todoHeader{
+    text-align: center;
+    font-weight: 300;
+    font-size: 35px;
+}
+/* input section  */
+.inputField{
+    padding: 1%;
+}
+.inputField input{
+    display: block;
+    width: 95%;
+    height: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+}
+/* for selecting whole checkboxes  */
+.checkboxList{
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+}
+/* for selecting checkboxes individually  */
+.checkboxIndividual{
+    padding: 10px 0px;
+    box-shadow: rgba(255, 255, 255, 0) 0px 1px 1px, rgba(9, 30, 66, 0.096) 0px 0px 1px 1px;
+}
+/* footer section  */
+.footer{
+    background-color: #F4FCE8;
+    height: auto;
+    padding: 2% 5%;
+    display: flex;
+    white-space: nowrap;
+}
+/* left part of footer section includes icons  */
+/* icons are placed inside span  */
+.footerLeft{
+    padding: 1px;
+}
+/* for selecting icons seperately  */
+.footerLeft span{
+    padding: 0% 5%;
+}
+/* for selecting the whole components on the right side of footer  */
+.footerRight{
+    padding: 1px;
+    margin-left: 40%;
+}
+
+/* for selecting individual texts on footer right side  */
+.footerRight span{
+    padding: 0% 5%;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+.active {
+    background-color: red;
+    color: white;
+}
+#del{
+    margin-left: 68%;
+}
+#edit{
+    border: none;
+    background-color: white;
+}
